@@ -1,0 +1,14 @@
+name: simply-just
+recipe: lamp
+config:
+  webroot: public
+
+services:
+  node:
+    type: node
+    build:
+      - npm install
+
+tooling:
+  npm:
+    service: node
