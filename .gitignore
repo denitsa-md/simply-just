@@ -14,4 +14,4 @@ yarn-error.log
 .env
 .DS_Store
 # Exclude stuff you are creating from Git
-/content
+content/

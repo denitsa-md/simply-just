@@ -39,7 +39,7 @@ h1 {
     }
 
     a {
-        @apply text-teal font-medium underline;
+        @apply text-orange-500 font-medium underline;
         &:hover {
             @apply text-black;
         }

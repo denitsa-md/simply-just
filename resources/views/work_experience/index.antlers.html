@@ -1,0 +1,23 @@
+<div class="max-w-5xl mx-auto relative mt-16 content">
+    {{ svg src="/assets/site/universe" class="absolute text-gray-800 mt-8 top-0 left-0 w-20 hidden md:block" }}
+    <article class="lg:py-32 max-w-2xl mx-auto content">
+        <h1>{{ title }}</h1>
+        {{ content | widont }}
+        {{ if image }}
+        <img class="rounded-full w-32" src="assets/site/{{ image }}.png" >
+        {{ /if }}
+    </article>
+</div>
+
+<div class="max-w-2xl mx-auto mb-32">
+    {{ collection:work_experience as="work_experience" sort="start_date:desc" }}
+    {{ if no_results }}
+    <h2 class="text-3xl italic tracking-tight">Feel the rhythm! Feel the rhyme! Get on up, it's writing time! Cool writings!</h2>
+    {{ /if }}
+
+    {{ work_experience }}
+        {{ partial:work_experience/_show }}
+    {{ /work_experience }}
+    {{ /collection:work_experience }}
+</div>
+

@@ -1,0 +1,72 @@
+title: 'Work experience'
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          character_limit: 0
+          display: Title
+          validate:
+            - required
+      -
+        handle: company
+        field:
+          type: text
+          character_limit: 0
+          display: Company
+          validate:
+            - required
+      -
+        handle: company_website
+        field:
+          type: text
+          character_limit: 0
+          display: 'Company website'
+          validate:
+            - required
+      -
+        handle: template
+        field:
+          type: template
+          display: Template
+      -
+        handle: start_date
+        field:
+          type: date
+      -
+        handle: end_date
+        field:
+          type: date
+      -
+        handle: content
+        field:
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: true
+          smartypants: false
+          type: markdown
+          display: Content
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
+          validate:
+            - required
+      -
+        handle: work_skills
+        field:
+          type: terms
+          taxonomies:
+            - work_skills
+          display: Work skills
+          mode: select
