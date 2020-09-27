@@ -2,7 +2,7 @@
 title: 'Backend developer/Project lead'
 template: work_experience/show
 updated_by: d0d2cbde-0ef1-4f90-85ae-3635b1dc6f7c
-updated_at: 1601218010
+updated_at: 1601226045
 start_date: '2016-08-15 08:45'
 company: SubscriptionPeople
 company_website: 'https://roam.plus/'
@@ -16,11 +16,11 @@ work_skills:
   - aws
 id: 52271eed-b0aa-4c10-84a5-b9eb40afeb15
 ---
-Towards the end of my Bachelor degree in Business Administration I developed an interest in programming and went on to a Masters degree in Software development. I spent a year doing that and then was lucky to be given a chance by SubscriptionPeople to work with programming professionaly. That's where I've been since 2016.
+Towards the end of my Bachelor's degree in Business Administration, I developed an interest in programming and went on to a Master's degree in Software development. I spent a year doing that and then was lucky to be given a chance by SubscriptionPeople to work with programming professionally. That's where I've been since 2016.
 
 **ConsortiaManager**
 
-The first system I worked on was [ConsortiaManager](https://consortiamanager.com/) - a workflow and ERM tool for library consortia, used by customers around the world. I started out as a junior developer, learning the ropes and the domain of libraries and consortia. In the beginning I fixed small bugs and made small improvements. I was then assigned bigger features: a customizable dashboard for the library interface in the system; a shopping basket where libraries can add the resources they wish to purchase from the consortium; a dashboard for the consortia, summarising library activity (from Google analytics) among others. I did both backend and frontent work.
+The first system I worked on was [ConsortiaManager](https://consortiamanager.com/) - a workflow and ERM tool for library consortia, used by customers around the world. I started as a junior developer, learning the ropes and the domain of libraries and consortia. In the beginning, I fixed small bugs and made small improvements. I was then assigned bigger features: a customizable dashboard for the library interface in the system; a shopping basket where libraries can add the resources they wish to purchase from the consortium; a dashboard for the consortia, summarising library activity (from Google analytics) among others. I did both backend and frontend work.
 
 **ROAM**
 
@@ -30,8 +30,8 @@ ConsortiaManager was initially built as a pilot project for a single customer, o
 
 At the start of the project, I spent a lot of time collecting requirements. I was the sole developer at the time and it took about half a year until we had some functionality that enabled us to make a simple demo.
 
-Ever since, we have been improving the system, expanding the ROAM team, and attracting new customers. We now have a dedicated frontend developer, a designer, and an additional backend developer.
+Ever since, we have been improving the system, expanding the ROAM team, and attracting new customers. We now have a dedicated front-end developer, a designer, and an additional backend developer.
 
-The application has been transformed into a single page app and I am now solely responsible for the backend API, infrastructure, and deal with a lot of the project management work. Since the start from the project, I have greatly improved my skills both as a developer, but also as a team player.
+The application has been transformed into a single-page app and I am now solely responsible for the backend API, infrastructure, and deal with a lot of the project management work. Since the start of the project, I have greatly improved my skills both as a developer, but also as a team player.
 
 Aside from coding, I have also been heavily invested in improving our processes and workflow, introducing principles from agile methodologies that make sense for our small team.
