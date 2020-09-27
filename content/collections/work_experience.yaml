@@ -1,0 +1,21 @@
+title: 'Work experience'
+template: work_experience/show
+layout: layout
+taxonomies:
+  - work_skills
+revisions: false
+sort_dir: desc
+date_behavior:
+  past: public
+  future: private
+structure:
+  root: false
+  tree:
+    -
+      entry: 52271eed-b0aa-4c10-84a5-b9eb40afeb15
+    -
+      entry: 73c09eea-bb9d-4f6f-a9f6-bc1562a25c4c
+    -
+      entry: 65ff8eee-0b05-4c64-9577-9c4a57c9ac22
+    -
+      entry: 41afb55f-012d-495b-a71c-3c3b4c7a27b4

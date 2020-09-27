@@ -8,6 +8,10 @@ data:
       url: 'https://twitter.com/StepToMe_'
       icon: site/social-icons/twitter.svg
     -
+      name: LinkedIn
+      url: 'https://www.linkedin.com/in/dmlechkova'
+      icon: site/social-icons/linkedin.svg
+    -
       name: Github
       url: 'https://github.com/denitsa-md'
       icon: site/social-icons/github.svg
