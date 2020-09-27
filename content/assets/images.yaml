@@ -1,4 +1,4 @@
 title: Images
-disk: local
+disk: assets
 allow_uploads: true
 create_folders: true

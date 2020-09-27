@@ -26,8 +26,6 @@ sections:
           type: text
           character_limit: 0
           display: 'Company website'
-          validate:
-            - required
       -
         handle: template
         field:
