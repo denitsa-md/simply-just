@@ -1,4 +1,3 @@
-id: 9242876a-41c4-42f8-96f8-ac92d6025406
 title: Settings
 data:
   site_name: 'Simply Just'
@@ -19,3 +18,7 @@ data:
       name: Email
       url: 'mailto:dmlechkova@gmail.com'
       icon: site/social-icons/email.svg
+    -
+      name: Goodreads
+      url: 'https://www.goodreads.com/user/show/12825719-denitsa'
+      icon: site/social-icons/goodreads.svg
