@@ -1,9 +1,10 @@
 ---
-title: About me
+title: 'About me'
 updated_by: d0d2cbde-0ef1-4f90-85ae-3635b1dc6f7c
-updated_at: 1601193785
-template: page
+updated_at: 1601805026
+template: about
 image: avatar
+view_model: App\ViewModels\CurrentlyReading
 id: 62136fa2-9e5c-4c38-a894-a2753f02f5ff
 ---
 Hi, I'm Denitsa. I'm originally from Bulgaria and have been *mostly* happily living in Denmark for almost a decade now! 
