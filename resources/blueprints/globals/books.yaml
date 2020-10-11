@@ -1,0 +1,12 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: book_title
+        field:
+          input_type: text
+          display: 'Book title'
+          type: text
+          icon: text
+          listable: true

@@ -2,6 +2,7 @@ name: simply-just
 recipe: lamp
 config:
   webroot: public
+  php: '7.4'
 
 services:
   node:
@@ -10,5 +11,8 @@ services:
       - npm install
 
 tooling:
+  fix:
+    service: appserver
+    cmd: php vendor/bin/php-cs-fixer fix --verbose --allow-risky=yes
   npm:
     service: node

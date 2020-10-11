@@ -1,4 +1,5 @@
 name: Denitsa
 super: true
+avatar: site/avatar.png
 id: d0d2cbde-0ef1-4f90-85ae-3635b1dc6f7c
-password_hash: $2y$10$EKujlWzHCzNE9D3KHXiV5.qmt0FHaG3E.Wyuq7pGnhUllMbnjn8qm
+password_hash: $2y$10$BIOmkRyZqTQofPIkllngjuKsKkkRQedZ.NxGvzcCdQzNugS5JjWvO

@@ -34,10 +34,6 @@ h1 {
         @apply text-3xl leading-tight;
     }
 
-    img {
-        @apply my-12;
-    }
-
     a {
         @apply text-orange-500 font-medium underline;
         &:hover {

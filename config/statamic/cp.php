@@ -43,7 +43,7 @@ return [
             'type' => 'collection',
             'collection' => 'articles',
             'width' => 50,
-            'limit' => 10
+            'limit' => 10,
         ],
         [
             'type' => 'updater',

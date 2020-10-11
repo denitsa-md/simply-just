@@ -1,0 +1,26 @@
+<div class="max-w-5xl mx-auto relative mt-16 content">
+    {{ svg src="/assets/site/universe" class="absolute text-gray-800 mt-8 top-0 left-0 w-20 hidden md:block" }}
+    <article class="lg:py-32 max-w-2xl mx-auto content">
+        <h1>{{ title }}</h1>
+        {{ content | widont }}
+        {{ if image }}
+            <img class="rounded-full w-32 my-2" src="assets/site/{{ image }}.png" >
+        {{ /if }}
+        {{ if books }}
+            <h3 class="mt-2">I'm currently reading</h3>
+            <div class="flex h-64">
+                {{ foreach:books as="key|book" }}
+                <a href="{{ book:goodreads_link }}"
+                        class="flex flex-col flex-none w-48 m-2 p-2 text-xs">
+                    <div class="flex-none order-1">
+                        <img class="object-contain" src="{{ book:image_url }}" alt="{{ title }}">
+                    </div>
+                    <div class="flex-none order-2 py-2">
+                        {{ book:title }}
+                    </div>
+                </a>
+                {{ /foreach:books}}
+            </div>
+        {{ /if }}
+    </article>
+</div>
