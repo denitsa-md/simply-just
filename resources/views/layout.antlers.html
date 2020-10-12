@@ -18,10 +18,30 @@
 
             gtag('config', 'UA-176879292-1');
         </script>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
     </head>
     <body class="bg-white font-sans leading-normal text-grey-800 px-4 sm:px-10" x-data="{ showMobileNav: false }">
         {{ partial:nav }}
         {{ template_content }}
         {{ partial:footer }}
+        <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+        <script>
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#ed8936",
+                        "text": "#2d3748"
+                    },
+                    "button": {
+                        "background": "#38b2ac",
+                        "text": "#2d3748"
+                    }
+                },
+                "theme": "classic",
+                "content": {
+                    "message": "This website uses Google Analytics so I can see if anyone ever looks at this space :)"
+                }
+            });
+        </script>
     </body>
 </html>
