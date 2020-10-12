@@ -9,6 +9,15 @@
         <meta name="theme-color" content="00908F">
         <link rel="stylesheet" href="{{ mix src='css/tailwind.css' }}">
         <script src="{{ mix src='/js/site.js' }}"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176879292-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-176879292-1');
+        </script>
     </head>
     <body class="bg-white font-sans leading-normal text-grey-800 px-4 sm:px-10" x-data="{ showMobileNav: false }">
         {{ partial:nav }}
