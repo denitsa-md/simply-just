@@ -11,6 +11,6 @@ Hi, I'm Denitsa. I'm originally from Bulgaria and have been *mostly* happily liv
 
 For the past few years I've been working as a backend developer at a small company, trying to make lives a bit easier for librarians.
 
-I suck at design and want to become better at it. So when I saw the new [Statamic](https://statamic.com) I thought the time has come to experiment with [Tailwind](https://tailwindcss.com). 
+I suck at CSS and design, and want to become better at it. So when I saw the new [Statamic](https://statamic.com) I thought the time has come to experiment with [Tailwind](https://tailwindcss.com). 
 
 I also thought it would be nice to have a place to gather my thoughts/experiences/experiments, so here we are.
